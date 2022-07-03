@@ -9,3 +9,11 @@ With the end of COVID-19, the proportion of people living alone is expected to i
 # The overall project flow chart
 <img src = "https://user-images.githubusercontent.com/84063359/177031095-911e3d75-92fa-4c9c-bad5-5bd50793f1e7.png"
      width = 100% height = 200>
+
+# Process 
+## Data Gathering 
+Using Crawling such as Selenium, BeautifulSoup. After that, I get 200 thousands of review data
+## Noise Canceling 
+Using han-spell library fixing hangul spelling.
+## Morphological Analysis and Disuse of Terms
+First of all, I considered to analyze in terms of Morphs. But, for topic modeling, I should get correct word not morphs. So, I decided to get Part Of Speech(POS).
