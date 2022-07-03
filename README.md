@@ -11,7 +11,7 @@ With the end of COVID-19, the proportion of people living alone is expected to i
      width = 100% height = 200>
 
 # Process 
-## Data Gathering 
+## <span style = "color:red">Data Gathering</span> 
 Using Crawling such as Selenium, BeautifulSoup. After that, I get 200 thousands of review data
 ## Noise Canceling 
 Using han-spell library fixing hangul spelling.
@@ -25,3 +25,6 @@ To solve the difference between the mood of the review and the rating, we conduc
 ## Topic Modeling
 ### how?
 After rescoring score, I divide up sections by four class. It is verybad(lower than 2), bad(higher than 2 & lower than 3), normal(higher than 3 & lower than 4), good(higher than 4)
+
+# Results
+
