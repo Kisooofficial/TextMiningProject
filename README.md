@@ -36,13 +36,13 @@ Rescoring error before => 2.20, Rescoring error after => 0.55(after using 0.25, 
 + correction score average by four sections
 <img src = "https://user-images.githubusercontent.com/84063359/177032112-4ef5c634-3770-4ec8-be74-9c88ae9ad9f7.png" width = 100% height = 150></img>
 + Topic Modeling results(it is only summary)
-<img src = "https://user-images.githubusercontent.com/84063359/177032148-7dfc440e-ea0e-4825-98ab-7c6897d15096.png" width = 100% height = 150></img>
+<img src = "https://user-images.githubusercontent.com/84063359/177032148-7dfc440e-ea0e-4825-98ab-7c6897d15096.png" width = 100% height = 300></img>
 
 # Expected effects of this project
-1. Accurate diagnosis related to the establishment of an emotion analysis model is required
++ Accurate diagnosis related to the establishment of an emotion analysis model is required
 The model generally adjusted the positive and negative well, but there were quite a few cases where it did not. We need to think about this further. We are considering the direction of improving accuracy by periodically adding disused terms to parts such as newly coined words specialized in Korean.
-2. Topic modeling suggests alternatives to overall poor evaluation
++ Topic modeling suggests alternatives to overall poor evaluation
 From the consumer's point of view, you can see people's overall assessment of the product, and from the seller's point of view, you can understand consumers' overall needs and help them solve problems. In the future, we plan to find the best topic while looking for hyperparameters using the gensim library.
-3. Link to future recommendations
++ Link to future recommendations
 Entering the era of super-personalization through the era of untact, personalized marketing has become important. It is possible to implement a recommendation system using collaborative filtering and content-based filtering using the constructed data.
 => Since you can get your personal nicknames from today's home, you need to think about implementing the recommended system techniques above, and you need to think about solving cold start problems that may occur in this process.
