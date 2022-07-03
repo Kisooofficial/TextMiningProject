@@ -23,6 +23,8 @@ I considered using TF-IDF, but it has sparsity problems. I solve a problem using
 To solve the difference between the mood of the review and the rating, we conduct an sentiment analysis. After sentiment analysis, I rescore rating.(sentiment score * 0.25 + rating * 0.75)
 
 ## Topic Modeling
+Analyizing keyword each topic
+
 ### how?
 After rescoring score, I divide up sections by four class. It is verybad(lower than 2), bad(higher than 2 & lower than 3), normal(higher than 3 & lower than 4), good(higher than 4)
 
@@ -31,4 +33,16 @@ After rescoring score, I divide up sections by four class. It is verybad(lower t
 <img src = "https://user-images.githubusercontent.com/84063359/177031785-e67d0fb1-8840-4bea-a0cd-f558a5576fb0.png" width = 100% height = 150></img>
 + Comparing score that rescoring before&After, It is an error that differences between user-assigned ratings and sentimental ratings 
 Rescoring error before => 2.20, Rescoring error after => 0.55(after using 0.25, 0.75 weight)
++ correction score average by four sections
+<img src = "https://user-images.githubusercontent.com/84063359/177032112-4ef5c634-3770-4ec8-be74-9c88ae9ad9f7.png" width = 100% height = 150></img>
++ Topic Modeling results(it is only summary)
+<img src = "https://user-images.githubusercontent.com/84063359/177032148-7dfc440e-ea0e-4825-98ab-7c6897d15096.png" width = 100% height = 150></img>
 
+# Expected effects of this project
+1. Accurate diagnosis related to the establishment of an emotion analysis model is required
+The model generally adjusted the positive and negative well, but there were quite a few cases where it did not. We need to think about this further. We are considering the direction of improving accuracy by periodically adding disused terms to parts such as newly coined words specialized in Korean.
+2. Topic modeling suggests alternatives to overall poor evaluation
+From the consumer's point of view, you can see people's overall assessment of the product, and from the seller's point of view, you can understand consumers' overall needs and help them solve problems. In the future, we plan to find the best topic while looking for hyperparameters using the gensim library.
+3. Link to future recommendations
+Entering the era of super-personalization through the era of untact, personalized marketing has become important. It is possible to implement a recommendation system using collaborative filtering and content-based filtering using the constructed data.
+=> Since you can get your personal nicknames from today's home, you need to think about implementing the recommended system techniques above, and you need to think about solving cold start problems that may occur in this process.
