@@ -11,11 +11,11 @@ With the end of COVID-19, the proportion of people living alone is expected to i
      width = 100% height = 200>
 
 # Process 
-### Data Gathering 
+## Data Gathering 
 Using Crawling such as Selenium, BeautifulSoup. After that, I get 200 thousands of review data
-### Noise Canceling 
+## Noise Canceling 
 Using han-spell library fixing hangul spelling.
-### Morphological Analysis and Disuse of Terms
+## Morphological Analysis and Disuse of Terms
 First of all, I considered to analyze in terms of Morphs. But, for topic modeling, I should get correct word not morphs. So, I decided to get Part Of Speech(POS). I only used nouns, adjective, verb.
-### Text Vectorization 
+## Text Vectorization 
 I considered using TF-IDF, but it has sparsity problems. I solve a problem using Tokenize. I search rare words, and delect it to have more accuracy in sentiment analyizing.
