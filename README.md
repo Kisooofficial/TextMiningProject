@@ -27,4 +27,9 @@ To solve the difference between the mood of the review and the rating, we conduc
 After rescoring score, I divide up sections by four class. It is verybad(lower than 2), bad(higher than 2 & lower than 3), normal(higher than 3 & lower than 4), good(higher than 4)
 
 # Results
-
++ Sentiment Analysis
+<img src = "https://user-images.githubusercontent.com/84063359/177031785-e67d0fb1-8840-4bea-a0cd-f558a5576fb0.png" width = 100% height = 150>
++ Comparing score that rescoring before&After, It is an error that differences between user-assigned ratings and sentimental ratings 
+<img src = "https://user-images.githubusercontent.com/84063359/177031836-4aee808a-c31c-465e-941a-7c44cd7e6965.png" width = 50% height = 200>
+<img src = "https://user-images.githubusercontent.com/84063359/177031862-7074b6de-93c5-4ff9-85f6-c3cc0229cc20.png" width = 50% height = 200>
++ After 
