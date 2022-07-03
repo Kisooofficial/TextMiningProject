@@ -19,3 +19,9 @@ Using han-spell library fixing hangul spelling.
 First of all, I considered to analyze in terms of Morphs. But, for topic modeling, I should get correct word not morphs. So, I decided to get Part Of Speech(POS). I only used nouns, adjective, verb.
 ## Text Vectorization 
 I considered using TF-IDF, but it has sparsity problems. I solve a problem using Tokenize. I search rare words, and delect it to have more accuracy in sentiment analyizing.
+## Sentiment Analysis
+To solve the difference between the mood of the review and the rating, we conduct an sentiment analysis. After sentiment analysis, I rescore rating.(sentiment score * 0.25 + rating * 0.75)
+
+## Topic Modeling
+### how?
+After rescoring score, I divide up sections by four class. It is verybad(lower than 2), bad(higher than 2 & lower than 3), normal(higher than 3 & lower than 4), good(higher than 4)
