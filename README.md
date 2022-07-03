@@ -8,4 +8,4 @@ With the end of COVID-19, the proportion of people living alone is expected to i
 
 # The overall project flow chart
 <img src = "https://user-images.githubusercontent.com/84063359/177031095-911e3d75-92fa-4c9c-bad5-5bd50793f1e7.png"
-     width = 300 height = 200>
+     width = 100% height = 200>
