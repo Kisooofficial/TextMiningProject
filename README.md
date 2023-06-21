@@ -32,7 +32,7 @@ After rescoring score, I divide up sections by four class. It is verybad(lower t
 + Sentiment Analysis
 <img src = "https://user-images.githubusercontent.com/84063359/177031785-e67d0fb1-8840-4bea-a0cd-f558a5576fb0.png" width = 100% height = 150></img>
 + Comparing score that rescoring before&After, It is an error that differences between user-assigned ratings and sentimental ratings 
-Rescoring error before => 2.20, Rescoring error after => 0.55(after using 0.25, 0.75 weight)
+Rescoring error before => 2.20, Rescoring error after => 0.55(after using 1 : 3 weight)
 + correction score average by four sections
 <img src = "https://user-images.githubusercontent.com/84063359/177032112-4ef5c634-3770-4ec8-be74-9c88ae9ad9f7.png" width = 100% height = 150></img>
 + Topic Modeling results(it is only summary)
