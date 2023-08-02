@@ -47,4 +47,4 @@ From the consumer's point of view, you can see people's overall assessment of th
 Entering the era of super-personalization through the era of untact, personalized marketing has become important. It is possible to implement a recommendation system using collaborative filtering and content-based filtering using the constructed data.
 => Since you can get your personal nicknames from today's home, you need to think about implementing the recommended system techniques above, and you need to think about solving cold start problems that may occur in this process.
 ***
-For another details, please reference powerpoint such as a presentation of a proposal and final presentation
+For another details, please reference powerpoint like presentation or middle proposal.
